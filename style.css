@@ -1,0 +1,247 @@
+:root {
+    --background-hero-footer: #1f2937;
+    --headerlogo: #F9FAF8;
+    --info-color: #1F2937;
+    --quote-background: #E5E7EB;
+    --blue: #3882F6;
+    
+
+}
+
+html {
+    box-sizing: border-box;    
+    
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    *,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+      
+    }
+    a {
+        color: inherit;
+    }
+
+    body {
+        width: 100%;
+        
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        
+    }
+    header {
+        width: 100vw;
+        height: 50px;
+        background-color: var(--background-hero-footer);
+        
+    }
+
+    .header {
+        background-color: var(--background-hero-footer);
+        width: 80%;
+        height: 100%;
+        padding: 10px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    #navbar {
+        font-size: 14px;
+        color: #E5E7EB;
+        height: 100%;
+        max-width: 400px;
+        display: flex;
+        gap: 1rem;        
+    }
+    nav > ul > li:hover {
+        text-decoration: underline;
+    }
+    
+    #logo {
+        font-size: 24px;
+        color: var(--headerlogo);
+        
+    }
+    section {
+        padding: 20px 0 20px 0;
+    }
+
+    .hero {
+        background-color: var(--background-hero-footer);
+        width: 100vw;
+        min-height: 40vh;
+        font-size: 18px;
+        color: #E5E7EB;
+        
+        
+    }
+    .herowrapper {
+        max-width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        gap: 1em;
+        padding: 5vh 0 5vh 0;
+        flex-wrap:wrap-reverse;
+        justify-content: center;
+        
+
+    }
+    #hero-left {
+        max-width: 350px;
+    }
+        
+    
+    #heroimage {
+        max-width: 300px;
+        max-height: 199px;
+
+    }
+    .title2 {
+        font-size: 48px;
+        color: var(--headerlogo);
+        
+    }
+
+    .parHero {
+        font-size: 18px;
+    }
+
+    .bttnBlue {
+        background-color: #3882F6;
+        width: 100px;
+        height: 30px;
+        margin: 0.5em;
+        color: var(--headerlogo);
+        border: .5px solid var(--background-hero-footer);
+        border-radius: 20px;
+        font-size: 16px;
+    }
+    .imageTile {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50px;
+        
+    }
+    .gallery h2 {
+        text-align: center;
+        font-size: 36px;        
+        color: var(--info-color);
+        padding: 10px;
+        
+        
+    }
+    .gallery,
+    .fourth {
+        width: 100vw;
+        min-height: 40vh;
+        background-color: whitesmoke;
+        
+        
+    }
+    .galleryFlex {
+        margin-top: 50px;
+        max-width: 80%;
+        height: 100%;
+        margin: 0 auto;        
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        gap: 10px;
+    
+    }
+    .tile {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 12px;
+
+    }
+
+    .quote-section {
+        width: 100vw;
+        min-height: 40vh;        
+        background-color: var(--quote-background);
+        
+    }
+
+    .quote {
+        width: 60%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 50px;
+        gap: 1em;
+              
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        
+        
+            }
+
+    blockquote {
+        font-size: 36px;
+        height: 100%;        
+        color: var(--info-color);
+        font-style: italic;
+        font-weight: 100;        
+        max-width: 400px; 
+
+    }
+
+    .author {
+        align-self: flex-end;
+        font-weight: bolder;
+    }
+
+    .blueblock {
+        min-width: 60vw;
+        
+        min-height: 120px;
+        background-color: var(--blue);
+        padding: 1em;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 14px;
+        color: var(--quote-background);
+        
+    }
+    .border {
+        border: solid 1px whitesmoke;
+    }
+
+    .fourth {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+    footer {
+        background-color: var(--background-hero-footer);
+        width: 100vw;
+        height: 50px;        
+        color: whitesmoke;
+        padding: 10px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
